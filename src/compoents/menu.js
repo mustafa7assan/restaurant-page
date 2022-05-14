@@ -24,7 +24,7 @@ const menu = () => {
         dolorum dolor debitis placeat eius voluptate sit iste cum quasi
         ducimus.
       </p>
-      <p>${(i + 1) * (i * 10)}$</p>
+      <p>${(i + 1) * (i + 1 * 10)}$</p>
     </div>`;
     card.insertAdjacentHTML('afterbegin', html);
     container.appendChild(card);
